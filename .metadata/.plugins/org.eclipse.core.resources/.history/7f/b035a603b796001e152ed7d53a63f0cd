@@ -1,0 +1,52 @@
+package kodlama.io.rentACar.business.concretes;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import kodlama.io.rentACar.business.abstracts.CarService;
+import kodlama.io.rentACar.business.requests.CreateCarRequest;
+import kodlama.io.rentACar.business.requests.UpdateCarRequest;
+import kodlama.io.rentACar.business.responses.GetAllCarsResponse;
+import kodlama.io.rentACar.business.responses.GetByIdCarResponse;
+import kodlama.io.rentACar.dataAccess.abstracts.CarRepository;
+import kodlama.io.rentACar.entities.concretes.Car;
+import lombok.AllArgsConstructor;
+
+@Service
+@AllArgsConstructor
+public class CarManager implements CarService {
+
+	private CarRepository carRepository;
+	@Override
+	public List<Car> getAll() {
+		//List<Car> cars =carRepository.findAll();
+		//return cars;
+		return null;
+	}
+
+	@Override
+	public GetByIdCarResponse getById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void add(CreateCarRequest createCarRequest) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(UpdateCarRequest updateCarRequest) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

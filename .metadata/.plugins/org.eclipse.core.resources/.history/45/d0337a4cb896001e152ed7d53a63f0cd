@@ -1,0 +1,10 @@
+package kodlama.io.rentACar.core.utilities.exceptions;
+
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
+@AllArgsConstructor
+@NoArgsConstructor
+public class ProblemDetails {
+
+}
